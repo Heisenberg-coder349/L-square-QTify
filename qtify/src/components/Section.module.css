@@ -1,32 +1,34 @@
-.section_heading{
+.section_heading {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-}
-
-.section_name{
+  }
+  
+  .section_name {
     color: var(--color-text);
-}
-
-.toggletxt{
+  }
+  
+  .toggletxt {
     color: var(--color-primary);
     cursor: pointer;
-}
-
-.cards{
+  }
+  
+  .cards {
     /* display: flex; */
     margin: 18px 0 0 0;
     /* gap:6px   */
-}
-
-.cardGroup{
+  }
+  
+  .cardGroup {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 40px;
-}
-
-.hr{
+  }
+  
+  .hr {
     display: block;
-    border:1px solid var(--color-primary) ;margin: 15px -30px;
-}
+    border: 1px solid var(--color-primary);
+    margin: 15px -30px;
+  }
+  
